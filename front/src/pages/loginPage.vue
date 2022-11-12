@@ -1,3 +1,4 @@
+<!-- this is a login page -->
 <template>
   <div style="background:linear-gradient(45deg,#d3f9d8,#fff0f6)">
     <el-row>
@@ -170,3 +171,4 @@ export default {
 /*}*/
 
 </style>
+<!-- im hungry... -->
