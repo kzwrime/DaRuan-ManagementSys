@@ -80,6 +80,8 @@
   </div>
 </template>
 
+<!-- comments are here -->
+<!-- nothing to comment on... -->
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
