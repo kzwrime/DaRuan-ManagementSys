@@ -1,4 +1,5 @@
 <template>
+<!-- everything will be fine -->
 <div class="not-found">
   <img src="../assets/notfound/24.png" alt="">
 </div>

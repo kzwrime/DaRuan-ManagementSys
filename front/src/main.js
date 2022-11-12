@@ -41,3 +41,6 @@ app.config.globalProperties.$store=useStore
 app.use(ElementPlus)
 app.use(router)
 app.mount('#app')
+
+// this is some comments that lzj added
+// for DaRuan

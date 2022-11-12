@@ -1,8 +1,9 @@
 <template>
+  <!-- 这里所有的捏都是我加的捏. im lzj捏 -->
   <el-row>
     <el-col :span="24">
       <el-card style="min-width:100%;text-align: center" shadow="hover">
-        <h2 style="font-size: 80px">这是一个简单的项目主页</h2>
+        <h2 style="font-size: 80px">这是一个简单的项目主页捏</h2>
       </el-card>
     </el-col>
   </el-row>
@@ -11,7 +12,7 @@
         <el-card style="min-width: 100%" shadow="hover">
           <el-card style="width: auto ;border:0px;text-align: center" shadow="never" >
             <el-button  @click="toLabPage" style="position:relative;border: 0">
-              <h1 style="font-size: 25px">课题组介绍</h1>
+              <h1 style="font-size: 25px">课题组介绍捏</h1>
             <el-icon size="28px">
               <home-filled />
             </el-icon>
@@ -24,7 +25,7 @@
         <el-card style="min-width: 100%" shadow="hover">
           <el-card style="width: auto ;border:0px;text-align: center" shadow="never" >
             <el-button @click="toLogin" style="position:relative; ;border: 0" >
-              <h1 style="font-size: 25px">实验室资料管理系统</h1>
+              <h1 style="font-size: 25px">实验室资料管理系统捏</h1>
               <el-icon size="28px">
                 <platform />
               </el-icon>
@@ -37,7 +38,7 @@
         <el-card style="min-width: 100%" shadow="hover">
           <el-card style="width: auto ;border:0px;text-align: center" shadow="never" >
             <el-button @click="toAiqiyi" style="position:relative;border: 0">
-              <h1 style="font-size:25px">就是到处看看</h1>
+              <h1 style="font-size:25px">就是到处看看捏</h1>
               <el-icon size="28px">
                 <IceCream />
               </el-icon>

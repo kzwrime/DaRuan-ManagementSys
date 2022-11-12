@@ -7,6 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 import java.util.Optional;
 
+// hi, its me, lzj, again
+
 public interface BooksRepository extends JpaRepository<Books,Integer> {
 
     @Query(value = "select * from books WHERE TRUE ORDER BY books.book_id",nativeQuery = true)
