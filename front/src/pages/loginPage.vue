@@ -169,5 +169,12 @@ export default {
   padding-left: 0px;
   top: 15%;
 }
+.oridinary {
+  position: relative;
+  left: 38%;
+  width: 23%;
+  height: 78%;
+  top: 34%;
+}
 </style>
 <!-- im hungry... -->
