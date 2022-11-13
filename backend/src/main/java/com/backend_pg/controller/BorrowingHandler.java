@@ -24,25 +24,25 @@ public class BorrowingHandler {
     private BorrowingRepository borrowingRepository;
 
 
-    public static <T> Page<T> listConvertToPage(List<T> list, Pageable pageable) {
-        if (pageable.getOffset() > list.size()) {
-            long total = 0L;
-            PageImpl<T> emptyPage = new PageImpl<T>(list, pageable, total);
-            return emptyPage;
-        }
+    // public static <T> Page<T> listConvertToPage(List<T> list, Pageable pageable) {
+    //     if (pageable.getOffset() > list.size()) {
+    //         long total = 0L;
+    //         PageImpl<T> emptyPage = new PageImpl<T>(list, pageable, total);
+    //         return emptyPage;
+    //     }
 
-        if (pageable.getOffset() <= list.size() && pageable.getOffset() + pageable.getPageSize() > list.size()) {
-            List<T> bizPojos = list.subList((int)pageable.getOffset(), list.size());
-            PageImpl<T> pPage = new PageImpl<T>(bizPojos, pageable, list.size());
-            return pPage;
-        }
-        ////应该是其他情况
-        List<T> ucShopCourseBizPojos = list.subList((int)pageable.getOffset(), (int)(pageable.getOffset() + pageable.getPageSize()));
+    //     if (pageable.getOffset() <= list.size() && pageable.getOffset() + pageable.getPageSize() > list.size()) {
+    //         List<T> bizPojos = list.subList((int)pageable.getOffset(), list.size());
+    //         PageImpl<T> pPage = new PageImpl<T>(bizPojos, pageable, list.size());
+    //         return pPage;
+    //     }
+    //     ////应该是其他情况
+    //     List<T> ucShopCourseBizPojos = list.subList((int)pageable.getOffset(), (int)(pageable.getOffset() + pageable.getPageSize()));
 
-        PageImpl<T> pPage = new PageImpl<T>(ucShopCourseBizPojos, pageable, list.size());
+    //     PageImpl<T> pPage = new PageImpl<T>(ucShopCourseBizPojos, pageable, list.size());
 
-        return pPage;
-    }
+    //     return pPage;
+    // }
 
 
 
