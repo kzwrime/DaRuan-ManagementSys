@@ -530,5 +530,11 @@ export default {
 </script>
 
 <style scoped>
-
+.oridinary {
+  position: relative;
+  left: 38%;
+  width: 23%;
+  height: 78%;
+  top: 34%;
+}
 </style>
