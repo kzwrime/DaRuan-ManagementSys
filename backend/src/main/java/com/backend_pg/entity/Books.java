@@ -11,7 +11,7 @@ import java.sql.Timestamp;
 @Data
 @Entity
 public class Books {        //类名首字母小写==表名，就可以自动绑定
-
+    // entity: books
     @Id                     //主键
     //@GeneratedValue(strategy = GenerationType.IDENTITY)
     //@Column(name = "book_id", nullable = false)
