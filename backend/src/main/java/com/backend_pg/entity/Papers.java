@@ -8,7 +8,7 @@ import javax.persistence.Id;
 @Entity
 @Data
 public class Papers {
-
+    // entity: papers
     @Id
     private Integer paper_id;
     private String paper_name;

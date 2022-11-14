@@ -1,4 +1,6 @@
 <template>
+<!-- again bye-->
+<!-- yo -->
   <div class="reg-page" align="center">
     <el-card class="reg-card">
       <h2>欢迎使用我们的系统</h2>
