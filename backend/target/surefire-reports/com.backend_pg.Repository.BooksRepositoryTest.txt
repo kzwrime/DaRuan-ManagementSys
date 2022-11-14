@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.backend_pg.Repository.BooksRepositoryTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.298 s <<< FAILURE! - in com.backend_pg.Repository.BooksRepositoryTest
-getLoc  Time elapsed: 0.297 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "com.backend_pg.entity.Location.getLoc()" because "tmp" is null
-	at com.backend_pg.Repository.BooksRepositoryTest.getLoc(BooksRepositoryTest.java:23)
-

@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.backend_pg.BackendPgApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.947 s - in com.backend_pg.BackendPgApplicationTests
