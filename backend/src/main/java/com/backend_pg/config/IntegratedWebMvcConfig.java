@@ -33,6 +33,6 @@ public class IntegratedWebMvcConfig extends WebMvcConfigurationSupport {
                 setSupportedMediaTypes(list);
             }
         });
-        super.configureMessageConverters(converters);
+        super.addDefaultHttpMessageConverters(converters);
     }
 }
