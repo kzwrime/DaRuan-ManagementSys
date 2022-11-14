@@ -1,4 +1,5 @@
 <template>
+<!-- glad to see u again -->
   <div style="background:linear-gradient(to bottom left,#ebeee8,#3271ae)">
     <el-row class="top">
       <el-col :xs="4" :md="5" :lg="6">

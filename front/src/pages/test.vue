@@ -1,4 +1,5 @@
 <template>
+<!-- why are there a test page? -->
   <div class="background" style="background-color: #aed0ee">
   <el-row>
     <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1" style="background-color: #aed0ee">

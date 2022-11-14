@@ -1,4 +1,6 @@
 <template>
+<!-- what bugs? idk -->
+<!-- anyone is ok -->
   <div style="background:linear-gradient(60deg,#ecf0f1,#fedc5e)">
     <el-row>
       <el-col>
