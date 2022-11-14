@@ -19,7 +19,6 @@ public class ExceptionController {
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public String handleException(Exception ex, HttpServletResponse response) {
-        response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
         if(ex instanceof RequestException re) {
             return ResponseBuilder.simpleErrorResponse(re.code, re.getMsg());
         } else if(ex instanceof HttpRequestMethodNotSupportedException re) {
