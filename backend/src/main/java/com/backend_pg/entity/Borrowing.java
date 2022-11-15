@@ -7,6 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.sql.Timestamp;
 
+
+// what happened here?
 @Entity
 @Data
 public class Borrowing {
