@@ -2,26 +2,12 @@
 
 ## 前端
 
-Vue
-
-
-
-
+Use Vue. In the front directory.
 
 ## 后端
 
-Spring Boot
-
-
+Use Spring Boot. In the backend directory.
 
 ## 数据库
 
-PG与数据源。
-
-> 看怎么与**珞珈图腾进行对接**
-
-
-## More information
-actually, no
-我记得好像有个图在报告里。
-所有的信息都在那
+Use PostgreSQL.
